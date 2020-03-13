@@ -9,6 +9,20 @@ for bugs use github issue tracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
+## Node.js
+
+Install Node.js 10.x LTS and packages:
+
+```bash
+source configure.sh
+```
+
+First time you may also have to rebuild `node-saas`  (if you get compile errors when you run `ng serve`):
+
+```bash
+npm rebuild node-sasss
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
